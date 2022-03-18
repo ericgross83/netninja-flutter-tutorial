@@ -41,3 +41,8 @@ flutter:
   #   - assets/
   #   - assets/covers/
   #   - assets/congrats.gif
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
