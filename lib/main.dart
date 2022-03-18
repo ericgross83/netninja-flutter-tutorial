@@ -12,7 +12,12 @@ class Home extends StatelessWidget {
         title: const Text('Ninja App'),
         backgroundColor: Colors.red[600],
       ),
-      body: Center(child: Image.asset('assets/girl-3.jpg')),
+      body: Center(
+        child: ElevatedButton(
+            onPressed: () {},
+            child: Text('Click me'),
+            style: ElevatedButton.styleFrom(primary: Colors.green[600])),
+      ),
       floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.red[600],
           onPressed: () {},
